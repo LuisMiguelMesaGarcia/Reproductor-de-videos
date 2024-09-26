@@ -1,0 +1,10 @@
+.mh-preview{
+    max-height: 200px;
+}
+.form_duration{
+    display: inline-block;
+}
+.btn-duration{
+    display: flex;
+    flex-direction: column;
+}

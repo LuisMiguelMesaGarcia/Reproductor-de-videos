@@ -1,0 +1,12 @@
+.margin{
+    margin-left: auto;
+    margin-right: 5%;
+}
+.ul-nav{
+    width: 100%;
+}
+@media (max-width: 991px) {
+    .margin{
+        margin-left: 0;
+    }
+}

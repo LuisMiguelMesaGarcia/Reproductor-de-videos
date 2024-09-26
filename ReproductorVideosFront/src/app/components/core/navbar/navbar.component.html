@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Transporte especial <b class="text-success">San Gabriel</b> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNavDropdown">
+        <ul class="navbar-nav ul-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Videos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="admin/content/listvt">Videos con titulo</a></li>
+              <li><a class="dropdown-item" href="admin/content/listvbl">Videos con descripcion</a></li>
+              <li><a class="dropdown-item" href="admin/content/listbt">Solo descripcion</a></li>
+            </ul>
+          </li>
+          <li class="margin">
+            <div class="d-flex">
+              @if(user === undefined){
+                <a href="/login" class="btn btn-success">Login</a>
+              }@else{
+                <div class="d-flex align-item-center">
+                  <span>{{user?.email}}</span>
+                  <button class="btn btn-success ms-3" (click)="onLogout()">Logout</button>
+                </div>
+              }
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>

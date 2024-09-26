@@ -1,0 +1,101 @@
+<div class="container mt-5">
+
+    <h1 class="text-center mb-3">Crear poster</h1>
+    <form class="row g-3" [formGroup]="requestForm" (ngSubmit)="onSubmit()">
+        <div class="mb-3">
+            <label class="form-label">Titulo</label>
+            <input type="text" class="form-control" formControlName="Title">
+            @if(requestForm.controls['Title'].invalid && (requestForm.controls['Title'].touched || requestForm.controls['Title'].dirty)){
+                <div class="text-danger">
+                    @if (requestForm.controls['Title'].errors?.['required']) {
+                        <p class="text-danger mb-0" >El titulo es obligatorio</p>
+                    }
+                </div>
+            }
+        </div>
+
+        
+        <div class="mb-3">
+            <label class="form-label">Tipo de poster</label>
+            <select class="form-control" formControlName="ContentCategory">
+                <option value="VT">Video con Titulo (VT)</option>
+                <option value="VBL">Video con Banner lateral (VBL)</option>
+                <option value="BT">Banner con Titulo (BT)</option>
+            </select>
+            @if(requestForm.controls['ContentCategory'].invalid && (requestForm.controls['ContentCategory'].touched || requestForm.controls['ContentCategory'].dirty)){
+                <div class="text-danger">
+                    @if (requestForm.controls['ContentCategory'].errors?.['required']) {
+                        <p class="text-danger mb-0" >El tipo de poster es obligatorio</p>
+                    }
+                </div>
+            }
+        </div>
+
+        @if(requestForm.get('ContentCategory')?.value == "VBL" || requestForm.get('ContentCategory')?.value == "BT"){
+            <div class="mb_3">
+                <label class="form-label">Texto del Banner</label>
+                <input type="text" class="form-control" formControlName="SideBannerText">
+            </div>
+        }
+
+        @if(requestForm.get('ContentCategory')?.value == "BT"){
+
+            <label class="form-label"> Duración en Pantalla </label>
+
+            <div class="mb-3 d-flex flex-wrap flex-sm-row  align-items-center duration_container">
+                
+                <div class="m-2 d-flex gap-3">
+                    <label class="me-auto" for="hours">Hours: </label>
+                    <input class="ms-auto" id="hours" type="number" name="hours" min="0" max="23" formControlName="Hours" required >
+                </div>
+
+                <div class="m-2 d-flex gap-3">
+                    <label for="minutes">Minutes: </label>
+                    <input id="minutes" type="number" name="minutes" min="0" max="59" formControlName="Minutes" required>
+                </div>
+
+                <div class="m-2 d-flex gap-3">
+                    <label for="seconds">Seconds: </label>
+                    <input id="seconds" type="number" name="seconds" min="0" max="59" formControlName="Seconds" required>
+                </div>
+
+                <!-- <button class="btn btn-primary mx-5 " (click)="guardarHora()" type="submit">Save Duration</button> -->
+            </div>
+        }
+
+        @if(requestForm.get('ContentCategory')?.value == "VT" || requestForm.get('ContentCategory')?.value == "VBL"  ){
+            <div class="mb-3">
+                <label class="form-label">Subir Video</label>
+                <input class="form-control" type="file" id="videoFile" accept="video/mp4" (change)="handleVideoFileInput($event)">
+                @if(videoUrl){
+                    <div class=" text-center">
+                        <video class="img-fluid mh-preview mt-2" [src]="videoUrl" controls></video>
+                    </div>
+                }
+            </div>
+        }
+
+        <div class="mb-3">
+            <label for="videoFile" class="form-label me-3">Horario en pantalla</label>
+            <input type="time" formControlName="PlayStartTime" required>
+        </div>
+
+        @if(requestForm.get('ContentCategory')?.value == "VBL" || requestForm.get('ContentCategory')?.value == "BT"){
+
+            <div class="mb-3">
+                <label for="imageFile" class="form-label">Imagen del Banner</label>
+                <input class="form-control" type="file" id="imageFile" accept="image/jpeg" (change)="handleImageFileInput($event)" [multiple]="true">
+                @if(imageUrl){
+                    <div class=" text-center">
+                        <img class="img-fluid mh-preview mt-2" [src]="imageUrl" alt="Imagen preview">
+                    </div>
+                }
+            </div>
+        }
+
+        <button type="submit" class="btn btn-success mb-3"> Crear </button>
+    </form>
+
+
+    <div></div>
+</div>

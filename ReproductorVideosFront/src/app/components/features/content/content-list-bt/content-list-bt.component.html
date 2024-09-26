@@ -1,0 +1,28 @@
+<div class="container mt-5">
+    <h1 class="text-center mb-5">Lista de banner con titulo</h1>
+
+    @if(user !== undefined && user?.roles?.includes('Writer')){
+        <div class="d-flex align-items-end justify-content-end  mb-5">
+          <a href="/admin/content/create" class="btn btn-success btn-create"> Crear nuevo contenido</a>
+        </div>
+    }
+    <div class="container-cards d-flex justify-content-around flex-wrap">
+        @for(content of contents; track $index){
+            <div class="card container-card__crud mb-5">
+                <!-- <video class="img-fluid mh-preview video-list" [src]="'https://localhost:7072/view/' + content.filePath" controls></video> -->
+                <img [src]="'https://localhost:7072/view/'+content.sideBannerImage" class="card-img-top" [alt]="'Imagen'+content.title">
+                <div class="card-body">
+                    <h5 class="card-title">{{content.title}}</h5>
+                    <p class="card-text">{{content.sideBannertext}}</p>
+                </div>
+                <div class="d-flex flex-column align-items-center flex-md-row justify-content-around card-body">
+                    <a [href]="'/admin/content/'+content.id" class="btn btn-success btn-crud">ver</a>
+                    @if(user !== undefined && user?.roles?.includes('Writer')){
+                        <a [href]="'/admin/content/update/'+content.id" class="btn btn-success btn-crud">Modificar</a>
+                        <button class="btn btn-danger btn-crud" (click)="deleteContent(content.id)">Borrar</button>
+                    }
+                </div>
+            </div>
+        }
+      </div>
+</div>

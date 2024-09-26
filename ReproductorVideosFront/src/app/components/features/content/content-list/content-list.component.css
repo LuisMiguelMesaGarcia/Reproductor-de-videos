@@ -1,0 +1,30 @@
+.btn-crud{
+    width: 20%;
+}
+
+.container-card__crud{      
+    width: 40%
+}
+
+.btn-create{
+    width: 15%;
+}
+.card-banner{
+    height: fit-content;
+}
+@media (max-width: 768px) {
+    .btn-crud{
+        width: 90%;
+        margin: 5%;
+    }
+    .container-card__crud{
+        width: 90%;
+    }
+    .btn-create{
+        width: 30%;
+    }
+}
+/* 
+@media (max-width: 995px) {
+    
+} */

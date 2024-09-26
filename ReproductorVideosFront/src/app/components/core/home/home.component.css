@@ -1,0 +1,44 @@
+.container-banner{
+    display: grid;
+    grid-template-areas:
+    "image video video"
+    "image video video"
+    "text text text"
+    ;
+}
+.banner-video{
+    grid-area: video;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-image{
+    width: 100%;
+    grid-area: image;
+
+}
+.banner-image img{
+    width: 100%;
+    height: 100%;
+}
+.banner-text{
+    grid-area: text;
+    overflow-wrap: break-word; 
+    overflow: hidden;
+    white-space: normal; 
+
+}
+
+@media (max-width: 768px) {
+    .container-banner{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* vbl */
+
+/* vt */
+.banner-video-vt video{
+    width: 100%;
+}

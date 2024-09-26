@@ -1,0 +1,249 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|g:\\datos_a_salvar\\estudiando\\proyectoreproductorvideos\\apireproductorvideos\\apireproductorvideos\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|solutionrelative:apireproductorvideos\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|g:\\datos_a_salvar\\estudiando\\proyectoreproductorvideos\\apireproductorvideos\\apireproductorvideos\\repositories\\implementation\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|solutionrelative:apireproductorvideos\\repositories\\implementation\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|g:\\datos_a_salvar\\estudiando\\proyectoreproductorvideos\\apireproductorvideos\\apireproductorvideos\\repositories\\interface\\itokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|solutionrelative:apireproductorvideos\\repositories\\interface\\itokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|g:\\datos_a_salvar\\estudiando\\proyectoreproductorvideos\\apireproductorvideos\\apireproductorvideos\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|solutionrelative:apireproductorvideos\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|g:\\datos_a_salvar\\estudiando\\proyectoreproductorvideos\\apireproductorvideos\\apireproductorvideos\\controllers\\contentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|solutionrelative:apireproductorvideos\\controllers\\contentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|g:\\datos_a_salvar\\estudiando\\proyectoreproductorvideos\\apireproductorvideos\\apireproductorvideos\\repositories\\implementation\\contentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|solutionrelative:apireproductorvideos\\repositories\\implementation\\contentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|g:\\datos_a_salvar\\estudiando\\proyectoreproductorvideos\\apireproductorvideos\\apireproductorvideos\\repositories\\interface\\icontentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|solutionrelative:apireproductorvideos\\repositories\\interface\\icontentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|g:\\datos_a_salvar\\estudiando\\proyectoreproductorvideos\\apireproductorvideos\\apireproductorvideos\\models\\domain\\content.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|solutionrelative:apireproductorvideos\\models\\domain\\content.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|g:\\datos_a_salvar\\estudiando\\proyectoreproductorvideos\\apireproductorvideos\\apireproductorvideos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|solutionrelative:apireproductorvideos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|g:\\datos_a_salvar\\estudiando\\proyectoreproductorvideos\\apireproductorvideos\\apireproductorvideos\\models\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|solutionrelative:apireproductorvideos\\models\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|g:\\datos_a_salvar\\estudiando\\proyectoreproductorvideos\\apireproductorvideos\\apireproductorvideos\\models\\dto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|solutionrelative:apireproductorvideos\\models\\dto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|g:\\datos_a_salvar\\estudiando\\proyectoreproductorvideos\\apireproductorvideos\\apireproductorvideos\\models\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|solutionrelative:apireproductorvideos\\models\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|g:\\datos_a_salvar\\estudiando\\proyectoreproductorvideos\\apireproductorvideos\\apireproductorvideos\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|solutionrelative:apireproductorvideos\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|g:\\datos_a_salvar\\estudiando\\proyectoreproductorvideos\\apireproductorvideos\\apireproductorvideos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DD75086B-604D-49E7-87EE-8B4DCA4F42FD}|ApiReproductorVideos\\ApiReproductorVideos.csproj|solutionrelative:apireproductorvideos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IContentRepository.cs",
+              "DocumentMoniker": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\Repositories\\Interface\\IContentRepository.cs",
+              "RelativeDocumentMoniker": "ApiReproductorVideos\\Repositories\\Interface\\IContentRepository.cs",
+              "ToolTip": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\Repositories\\Interface\\IContentRepository.cs",
+              "RelativeToolTip": "ApiReproductorVideos\\Repositories\\Interface\\IContentRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAhwAwAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T04:21:55.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContentRepository.cs",
+              "DocumentMoniker": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\Repositories\\Implementation\\ContentRepository.cs",
+              "RelativeDocumentMoniker": "ApiReproductorVideos\\Repositories\\Implementation\\ContentRepository.cs",
+              "ToolTip": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\Repositories\\Implementation\\ContentRepository.cs",
+              "RelativeToolTip": "ApiReproductorVideos\\Repositories\\Implementation\\ContentRepository.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAYwCYAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T04:21:41.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContentController.cs",
+              "DocumentMoniker": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\Controllers\\ContentController.cs",
+              "RelativeDocumentMoniker": "ApiReproductorVideos\\Controllers\\ContentController.cs",
+              "ToolTip": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\Controllers\\ContentController.cs",
+              "RelativeToolTip": "ApiReproductorVideos\\Controllers\\ContentController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAADwv0MAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T20:35:30.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Content.cs",
+              "DocumentMoniker": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\Models\\Domain\\Content.cs",
+              "RelativeDocumentMoniker": "ApiReproductorVideos\\Models\\Domain\\Content.cs",
+              "ToolTip": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\Models\\Domain\\Content.cs",
+              "RelativeToolTip": "ApiReproductorVideos\\Models\\Domain\\Content.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T04:18:48.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TokenRepository.cs",
+              "DocumentMoniker": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\Repositories\\Implementation\\TokenRepository.cs",
+              "RelativeDocumentMoniker": "ApiReproductorVideos\\Repositories\\Implementation\\TokenRepository.cs",
+              "ToolTip": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\Repositories\\Implementation\\TokenRepository.cs",
+              "RelativeToolTip": "ApiReproductorVideos\\Repositories\\Implementation\\TokenRepository.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowCIAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T21:04:26.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITokenRepository.cs",
+              "DocumentMoniker": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\Repositories\\Interface\\ITokenRepository.cs",
+              "RelativeDocumentMoniker": "ApiReproductorVideos\\Repositories\\Interface\\ITokenRepository.cs",
+              "ToolTip": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\Repositories\\Interface\\ITokenRepository.cs",
+              "RelativeToolTip": "ApiReproductorVideos\\Repositories\\Interface\\ITokenRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T21:03:46.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\Models\\Dto\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "ApiReproductorVideos\\Models\\Dto\\LoginResponseDto.cs",
+              "ToolTip": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\Models\\Dto\\LoginResponseDto.cs",
+              "RelativeToolTip": "ApiReproductorVideos\\Models\\Dto\\LoginResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T20:59:52.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\Models\\Dto\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "ApiReproductorVideos\\Models\\Dto\\LoginRequestDto.cs",
+              "ToolTip": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\Models\\Dto\\LoginRequestDto.cs",
+              "RelativeToolTip": "ApiReproductorVideos\\Models\\Dto\\LoginRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T20:59:14.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterRequestDto.cs",
+              "DocumentMoniker": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\Models\\Dto\\RegisterRequestDto.cs",
+              "RelativeDocumentMoniker": "ApiReproductorVideos\\Models\\Dto\\RegisterRequestDto.cs",
+              "ToolTip": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\Models\\Dto\\RegisterRequestDto.cs",
+              "RelativeToolTip": "ApiReproductorVideos\\Models\\Dto\\RegisterRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T20:39:45.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ApiReproductorVideos\\Controllers\\AuthController.cs",
+              "ToolTip": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ApiReproductorVideos\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAkwCYAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T20:38:19.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ApiReproductorVideos\\Data\\AppDbContext.cs",
+              "ToolTip": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ApiReproductorVideos\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T20:27:10.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiReproductorVideos\\appsettings.json",
+              "ToolTip": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\appsettings.json",
+              "RelativeToolTip": "ApiReproductorVideos\\appsettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-22T20:14:44.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\Program.cs",
+              "RelativeDocumentMoniker": "ApiReproductorVideos\\Program.cs",
+              "ToolTip": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\Program.cs",
+              "RelativeToolTip": "ApiReproductorVideos\\Program.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFAAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T20:02:34.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthDbContext.cs",
+              "DocumentMoniker": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\Data\\AuthDbContext.cs",
+              "RelativeDocumentMoniker": "ApiReproductorVideos\\Data\\AuthDbContext.cs",
+              "ToolTip": "G:\\datos_a_salvar\\Estudiando\\ProyectoReproductorVideos\\ApiReproductorVideos\\ApiReproductorVideos\\Data\\AuthDbContext.cs",
+              "RelativeToolTip": "ApiReproductorVideos\\Data\\AuthDbContext.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowC8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T17:03:31.57Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

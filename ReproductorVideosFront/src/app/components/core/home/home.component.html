@@ -1,0 +1,76 @@
+@if(videoPlaying){
+    <!-- View VBL -->
+    @if(videoPlaying.contentCategory=="VBL"){
+        <div class="container">
+            @if(videoPlaying){    
+                <div class="container">
+                    <div class="mt-5 bg-success">
+                        <h1 class="mb-0 text-center">{{videoPlaying.title}}</h1>
+                    </div>
+                    <div class="container-banner">
+                        <div class="banner-video banner-video-vt d-flex align-items-center">
+                            <video class="img-fluid mh-preview" [src]="'https://localhost:7072/view/' + videoPlaying.filePath" controls autoplay></video>
+                        </div>
+                        <div class="banner-image">
+                            <img [src]="'https://localhost:7072/view/'+videoPlaying.sideBannerImage" class="" [alt]="'Imagen'+videoPlaying.title">
+                        </div>
+                        <div class="banner-text">
+                            <p>{{videoPlaying.sideBannertext}}</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            }@else{
+                <h1 class="mt-5 text-center">No se encontró el contenido</h1>
+            }
+        </div>
+    }
+
+    <!-- View VT -->
+
+    @if(videoPlaying.contentCategory=="VT"){
+        <div class="container">
+            @if(videoPlaying){    
+                <div class="container">
+                    <div class="mt-5 bg-success">
+                        <h1 class="mb-0 text-center">{{videoPlaying.title}}</h1>
+                    </div>
+                    <div class="">
+                        <div class="banner-video banner-video-vt d-flex align-items-center">
+                            <video class="img-fluid mh-preview" [src]="'https://localhost:7072/view/' + videoPlaying.filePath" controls autoplay></video>
+                        </div>
+                    </div>
+                    
+                </div>
+            }@else{
+                <h1 class="mt-5 text-center">No se encontró el contenido</h1>
+            }
+        </div>
+    }
+
+    <!-- View VBL -->
+    @if(videoPlaying.contentCategory=="BT"){
+        <div class="container">
+            @if(videoPlaying){    
+                <div class="container">
+                    <div class="mt-5 bg-success">
+                        <h1 class="mb-0 text-center">{{videoPlaying.title}}</h1>
+                    </div>
+                    <div class="">
+                        <div class="banner-image">
+                            <img [src]="'https://localhost:7072/view/'+videoPlaying.sideBannerImage" class="" [alt]="'Imagen'+videoPlaying.title">
+                        </div>
+                        <div class="banner-text">
+                            <p>{{videoPlaying.sideBannertext}}</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            }@else{
+                <h1 class="mt-5 text-center">No se encontró el contenido</h1>
+            }
+        </div>
+    }
+}@else {
+    <h1 class="mt-5 text-center">No se encontró ningun contenido programado</h1>
+}
